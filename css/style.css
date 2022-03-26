@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    background: #0A0C1B;
+    color: #FEFFFF;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5em;
+    
+    
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+p{
+    margin: 0;
+}
+
+h2{
+    font-size: 1.71rem;
+    font-weight: 800;
+}
+
+
+
+.color-accent{
+    color: #B159DB;
+}
+
+.card{
+    border-radius: .75em;
+    overflow: hidden;
+    width: 100%;
+    max-width: 30rem;
+    margin: 0 auto;
+    background: #1C1938;
+    text-align: center;
+    
+}
+
+.card-content{
+    padding: 1.7em;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.services{
+    display: grid;
+    gap: 1.4rem;
+}
+
+
+.service p{
+    margin: 0;
+}
